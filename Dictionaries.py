@@ -24,3 +24,4 @@ prog={'js':'atom','cs':'vs','python':['pycharm','sublime'],'java':{'JSE':'Netbea
 print(prog['js'])
 print(prog['python'][1])
 print(prog['java']['JSE'])
+print(prog.keys(),prog.values())
